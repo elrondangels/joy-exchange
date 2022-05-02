@@ -21,8 +21,8 @@ def lkmexToTokenViaLockedmexExchange(token, balance=pow(10, 6)):
         return -1
 
 
-mex = lkmexToTokenViaLockedmexExchange("MEX-455c57", 10)
-print(f"10 LKMEX = {mex:.3f} MEX")
+joy = lkmexToTokenViaLockedmexExchange("JOY-43bad3", 10)
+print(f"10 LKMEX = {joy:.3f} JOY")
 
 egld = lkmexToTokenViaLockedmexExchange("EGLD")
 print(f"1m LKMEX = {egld:.3f} EGLD")
